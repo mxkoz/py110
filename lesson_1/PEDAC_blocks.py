@@ -5,7 +5,7 @@ def blocks_used():
     if blocks_remaining == 0:
         return 0
     while blocks_remaining >= (current_layer ** 2):
-        blocks_remaining -= (current_layer ** 2)
+        blocks_remaining -= current_layer ** 2
         print(blocks_remaining)
         current_layer += 1
         print(current_layer)
