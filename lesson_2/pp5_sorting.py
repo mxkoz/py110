@@ -23,3 +23,8 @@ def published_year(list):
 
 books.sort(key=published_year)
 pprint.pprint(books)
+
+
+dict2 = {'1st': {'d': 3}, 
+         '2nd': {'e': 2, 'f': 1}, 
+         '3rd': {'g': 0}}
